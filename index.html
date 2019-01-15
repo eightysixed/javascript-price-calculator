@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>The Laundry Express</title> <!--Set the Title Tag-->
+    <script type="text/javascript" src="js/formcalculations.js"></script>
+    <link href="styles/calculator.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload='hideTotal()'>
+    <div id="wrap">
+        <form action="" id="calculator" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+                <legend>Member Price - $1.49 Per Pound</legend> <!--This is the Title of the Box-->
+	<p>
+	<b>Amount of Laundry (lbs): </b>: <input type="text"  name="quantity" id="quantity" /> <!--This is the mathematical constant-->
+	</p>
+                <div id="totalPrice"></div>
+                </fieldset>
+            </div>
+
+            <div style="text-align:right"> <!--Set Alignment-->
+            <input type='submit' id='submit' value='Submit' onclick="calculateTotal()" />
+            </div>
+
+        </div>
+       </form>
+	</div>
+
+<!--End of wrap-->
+
+</body>
+</html>
