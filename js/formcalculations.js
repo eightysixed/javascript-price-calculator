@@ -7,11 +7,13 @@ You are free to use the code in Commercial or Non-Commercial projects
 
 function getQuantity()
 {
-    //Assume form with id="theForm"
+    //Assume form with id = "theForm"
     var theForm = document.forms["calculator"];
+    
     //Get a reference to the TextBox
     var quantity = theForm.elements["quantity"];
     var howmany = 1;
+    
     //If the TextBox is not blank
     if(quantity.value!="")
     {
