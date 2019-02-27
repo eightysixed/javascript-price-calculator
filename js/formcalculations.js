@@ -24,7 +24,7 @@ function calculateTotal()
 {
     //Get Total Price by Calling the Function
     var widgetPrice = getQuantity()*1.49; //Change 1.49 to Any Multiplier
-    var widgetPriceRounded = +parseFloat(((widgetPrice)num.toFixed(2)));  //Round the Result to 2 Decimal Points
+    var widgetPriceRounded = parseFloat(widgetPrice).toFixed( 2 );  //Round the Result to 2 Decimal Points
 
     //Display the Result
     var divobj = document.getElementById('totalPrice');
