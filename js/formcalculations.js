@@ -1,10 +1,3 @@
-/*
-This source is shared under the terms of LGPL 3
-www.gnu.org/licenses/lgpl.html
-
-You are free to use the code in Commercial or Non-Commercial projects
-*/
-
 function getQuantity()
 {
     //Assume form with id = "theForm"
